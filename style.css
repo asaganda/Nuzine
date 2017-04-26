@@ -1,0 +1,99 @@
+.sec_cont {
+  width: 560px;
+}
+
+.space {
+  margin-top: 50px;
+}
+
+.nav > li > a {
+  color: #dbdbdb;
+  font-size: 16px;
+}
+.nav > li > a:hover {
+  background-color: transparent;
+}
+
+.background-blend {
+  /*background-image:url(images/bg-image.png);*/
+  /*background-size: cover;*/ /*this is fucking me up*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 780px;
+  overflow: hidden;
+}
+
+.background-blend img {
+  width: 100%;
+}
+
+.blue-strip {
+  background-color: #3d4c62;
+  /*background-blend-mode: multiply;*/
+  mix-blend-mode: multiply;
+  margin-top: -46.3%;
+  top: 0;
+  left: 0;
+  /*width: 100%;*/
+  height: 215px;
+  /*background-image:url(images/bg-image.png);*/
+  overflow: hidden;
+  /*background-size: cover;*/
+  /*background-position: 0px 640px;*/
+}
+
+.blue-strip img {
+  width: 100%;
+}
+
+.company-logo {
+  text-align: center;
+}
+.company-logo img {
+  margin-top: -232.3px;
+  position: relative;
+  width: 335px;
+  height: 188.5px;
+}
+
+.text {
+  margin-top: 450px;
+  width: 100%;
+  height: 50px;
+}
+
+.text div {
+  color: #dbdbdb;
+  position: relative;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 30px;
+}
+
+.text2 {
+  font-size: 80px;
+  margin-top: -25px;
+}
+
+.img-buttons {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.img-buttons .work {
+  padding-right: 10px;
+}
+
+.img-buttons .touch {
+  padding-left: 10px;
+}
+
+.img-buttons .down {
+  margin-top: 35px;
+}
